@@ -1,3 +1,8 @@
+/* CSS from "meyers_and_normalize-form_reset.css" and "screen.css" */
+/* ... (paste your existing CSS from "meyers_and_normalize-form_reset.css" and "screen.css" here) ... */
+
+/* Additional CSS */
+
 body {
   background-color: FFEAD2;
 }
@@ -37,8 +42,7 @@ form > p {
   position: relative;
   text-align: center;
   font-size: 35px;
-
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 #input-email > label {
@@ -48,6 +52,7 @@ form > p {
   display: block;
   margin-top: 25px;
 }
+
 #email {
   position: relative;
   width: 100%;
@@ -62,8 +67,14 @@ form > p {
   text-align: center;
   display: block;
   margin-top: 25px;
+  font-size: 30px;
 }
 
 #submit {
   text-align: center;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
 }
